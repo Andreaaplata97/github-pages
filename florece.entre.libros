@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florece entre Libros</title>
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header class="navbar">
+    <div class="container">
+        <div class="logo">
+             <a href="Pagina%20de%20inicio.html"><img src="images/logo.png" alt="Logo de Florece entre Libros"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Sobre%20nosotros.html">SOBRE NOSOTROS</a></li>
+                <li><a href="catalogo.html">TIENDA</a></li>
+                <li><a href="eventos.html">EVENTOS</a></li>
+                <li><a href="#">BLOG</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-globe"></i> ES</a>
+        </div>
+    </div>
+</header>
+    
+<div class="imagenflores">
+    <img src="images/front-view-books-flowers-wooden-table.jpg" alt="Imagen principal">
+</div>
+
+<section class="main-content">
+    <div class="container">
+        <div class="section-news">
+            <h2>PONTE AL DÍA EN NUESTRA SECCIÓN DE NOTICIAS!</h2>
+            <img src="images/news-alert-announcement-broadcast-article-concept.jpg" alt="Noticias">
+        </div>
+        <div class="section-events">
+            <h2>DESCUBRE LOS EVENTOS PRÓXIMOS DE ESTA SEMANA!</h2>
+            <img src="images/authentic-book-club-scene.jpg" alt="Eventos">
+        </div>
+    </div>
+</section>
+
+<section class="offers">
+    <div class="container">
+        <h2>Libros de oferta esta semana</h2>
+        <div class="text">
+            <p>Esta semana tenemos la siguiente sección de libros en oferta. No te quedes sin ellos y aprovecha esta oportunidad!</p>
+            <div class="books">
+                <img src="images/may-gauthier-XGwNgTk8fcE-unsplash.jpg" alt="Libro en oferta 1">
+                <img src="images/shiromani-kant-L7NlefrZejA-unsplash.jpg" alt="Libro en oferta 2">
+                <img src="images/thought-catalog-V5BGaJ0VaLU-unsplash.jpg" alt="Libro en oferta 3">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="reviews">
+    <div class="container">
+        <h2>Reviews</h2>
+        <div class="review">
+            <div class="review-box">
+                <p><strong>Elisabeth R.</strong></p>
+                <p class="rating">★★★★★</p>
+            </div>
+        </div>
+        <div class="review">
+            <div class="review-box">
+                <p><strong>Mirko D.</strong></p>
+                <p class="rating">★★★★★</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>Síguenos en:</p>
+        <div class="social-icons">
+            <a href="#"><img src="images/twitter_5968830.png" alt="Twitter"></a>
+            <a href="#"><img src="images/facebook-logo_49354.png" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram_1384015.png" alt="Instagram"></a>
+            <a href="#"><img src="images/linkedin_3536569.png" alt="LinkedIn"></a>
+        </div>
+        <div class="logo-footer">
+            <img src="images/logo.png" alt="Logo de Florece entre Libros">
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
